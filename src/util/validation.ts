@@ -1,15 +1,15 @@
-export function isEmail(value) {
-  return value.includes('@');
+export function isEmail(value: string) {
+  return value.includes("@");
 }
 
-export function isNotEmpty(value) {
-  return value.trim() !== '';
+export function isNotEmpty(value: string) {
+  return value.trim() !== "";
 }
 
-export function hasMinLength(value, minLength) {
+export function hasMinLength(value: string, minLength: number) {
   return value.length >= minLength;
 }
 
-export function isEqualsToOtherValue(value, otherValue) {
+export function isEqualsToOtherValue(value: string, otherValue: string) {
   return value === otherValue;
 }

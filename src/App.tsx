@@ -1,5 +1,7 @@
 import Header from "./components/Header";
 import Login from "./components/Login";
+import StateLogin from "./components/StateLogin";
+import Signup from "./components/Signup";
 
 function App() {
   return (
@@ -7,6 +9,8 @@ function App() {
       <Header />
       <main>
         <Login />
+        <StateLogin />
+        <Signup />
       </main>
     </>
   );
